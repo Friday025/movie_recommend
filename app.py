@@ -44,4 +44,4 @@ if st.button("Recommend"):
     for idx, (name, poster_url) in enumerate(zip(recommended_names, recommended_posters)):
         with cols[idx % 5]:
             st.image(poster_url, use_column_width=True)
-            st.write(name) # this print poster
+            st.write(name) 
